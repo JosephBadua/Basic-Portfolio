@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-about {
+   background: #f3f3f3;
+
+}
+#header-div {
+    background: white;
+    height: 100px;
+    padding-top: 20px;
+}
+#name-header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background: #4aaaa5;
+    margin-top: 30px;
+    padding-bottom: 19px;
+    padding-top: 15px;
+    margin-left: 22%;
+    float: left;
+    width: 350px;
+    color: white;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: darkgray ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: cyan ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+#link-block {
+    text-align: center;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 60px;
+    margin-right: 405px;
+    font-size: 19px;
+    width: 400px;
+    text-decoration: none;
+}
+
+.main-div {
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    width: 960px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background: white;
+    border-color: gainsboro;
+    border-style: solid;
+    border-width: thin;
+}
+
+.hr-top {
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgray;
+}
+.main-header {
+    margin-bottom: 10px;
+    color: #4aaaa5;
+}
+#inside-main {
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+#profile {
+    margin-right: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    float: left;
+}
+
+.paragraph {
+    color: darkslategray ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.thin-blue {
+    border-style: solid;
+    border-width: medium;
+    border-color: cadetblue;
+}
+.footer-div {
+    text-align: center;
+    background: #666666;
+    padding-top: 35px;
+    padding-bottom: 22px;
+}
+input[type=text] {
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 15px;
+    border-bottom: 1.5px solid #4aaaa5;
+    outline: none;
+}
+
+form {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 960px;
+    height: 250px;
+    resize: none;
+    margin-bottom: 20px;    
+    font-size: 20px;
+}
+
+input[type=submit] {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    width: 150px;
+    background: #4aaaa5;
+    color: white;
+    border: none
+}
