@@ -9,13 +9,13 @@
 
 }
 
-/* How do I make the header stay when I resize the screen */
+/* How do I make the header stay when I resize the screen ANSWER=MEDIA QUERIES*/
 #header-div {
     background: white;
     height: 100px;
     padding-top: 20px;
 }
-/* How do I make the header stay when I resize the screen */
+/* How do I make the header stay when I resize the screen ANSWER=MEDIA QUERIES*/
 
 #name-header {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -25,7 +25,6 @@
     padding-bottom: 19px;
     padding-top: 15px;
     margin-left: 22%;
-    float: left;
     width: 350px;
     color: white;
 }
@@ -43,18 +42,19 @@ a:hover, a:active {
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
 
-/* How do I make the contact links stay when I resize the screen */
+/* How do I make the header stay when I resize the screen ANSWER=MEDIA QUERIES*/
 #link-block {
     text-align: center;
-    float: right;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 60px;
+    margin-left: 1090px;
+    margin-top: -30px;
     margin-right: 405px;
     font-size: 19px;
     width: 400px;
     text-decoration: none;
+    clear: both;
 }
-/* How do I make the contact links stay when I resize the screen */
+/* How do I make the header stay when I resize the screen ANSWER=MEDIA QUERIES*/
 
 .main-div {
     padding-top: 40px;
@@ -163,14 +163,14 @@ input[type=submit] {
     border: none
 }
 
-/* How to place an image in the div (boxes) */
 .box-a {
-    background: hotpink;
+    background-image: url('../images/project.jpg');
+    background-size: contain;
     border: thin black;
     width: 300px;
     height: 250px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-right: 10px;
     margin-bottom: 40px;
     text-align: center;
@@ -178,18 +178,18 @@ input[type=submit] {
 }
 
 .box-b {
-    background: hotpink;
+    background-image: url('../images/project.jpg');
+    background-size: contain;
     border: thin black;
     width: 300px;
     height: 250px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-right: 200px;
     margin-bottom: 40px;
     text-align: center;
     float: right;
 }
-/* How to place an image in the div (boxes) */
 
 .box-title {
     border: none;
