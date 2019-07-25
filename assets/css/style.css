@@ -29,7 +29,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 ol, ul {
 	list-style: none;
@@ -51,13 +53,19 @@ table {
    background: #f3f3f3;
 }
 
-/* How do I make the header stay when I resize the screen ANSWER=MEDIA QUERIES*/
 #header-div {
     background: white;
     height: 100px;
     padding-top: 20px;
+    width: 1060px;
+    margin: auto;
 }
-/* How do I make the header stay when I resize the screen ANSWER=MEDIA QUERIES*/
+
+#container {
+    width: 100%;
+    background: white;
+    margin: auto;
+}
 
 #name-header {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -66,10 +74,21 @@ table {
     margin-top: 30px;
     padding-bottom: 19px;
     padding-top: 15px;
-    margin-left: 22%;
     font-size: 36px;
     width: 350px;
     color: white;
+    float: left;
+}
+
+#link-block {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -30px;
+    font-size: 19px;
+    width: 400px;
+    text-decoration: none;
+    float: right;
+    clear: both;
 }
 
 a:link, a:visited {
@@ -79,26 +98,23 @@ a:link, a:visited {
     
 }
 
-a:hover, a:active {
+a:focus {
+    text-decoration: none;
+    color: darkgray ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+a:hover {
     text-decoration: none;
     color: cyan ;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
 
-/* How do I make the header stay when I resize the screen ANSWER=MEDIA QUERIES*/
-#link-block {
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 1090px;
-    margin-top: -30px;
-    margin-right: 390px;
-    font-size: 19px;
-    width: 400px;
+a:active {
     text-decoration: none;
-    clear: both;
+    color: pink ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
-/* How do I make the contact links stay when I resize the screen */
-
 .main-div {
     padding-top: 40px;
     padding-right: 50px;
@@ -213,9 +229,7 @@ input[type=submit] {
 }
 
 .box-a {
-    background-image: url('../images/project.jpg');
-    background-size: contain;
-    border: thin black;
+    border: 1px solid black;
     width: 300px;
     height: 250px;
     margin-left: 10px;
@@ -223,13 +237,10 @@ input[type=submit] {
     margin-right: 10px;
     margin-bottom: 40px;
     text-align: center;
-    float: left;
 }
 
 .box-b {
-    background-image: url('../images/project.jpg');
-    background-size: contain;
-    border: thin black;
+    border: 1px solid black;
     width: 300px;
     height: 250px;
     margin-left: 10px;
@@ -237,9 +248,46 @@ input[type=submit] {
     margin-right: 200px;
     margin-bottom: 40px;
     text-align: center;
-    float: right;
 }
 
+#box1 {
+    margin-left: 33%;
+    background-image: url('../images/headofexodia.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    clear: both;
+}
+
+#box2 {
+    background-image: url('../images/rightarmofexodia.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 60px;
+}
+
+#box3 {
+    background-image: url('../images/leftarmofexodia.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+    
+}
+
+#box4 {
+    background-image: url('../images/rightlegofexodia.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 60px;
+}
+
+#box5 {
+    background-image: url('../images/leftlegofexodia.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
 .box-title {
     border: none;
     width: 100%;
