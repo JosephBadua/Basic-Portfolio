@@ -182,12 +182,18 @@ a:active {
     border-style: solid;
     border-width: medium;
     border-color: cadetblue;
+    width: 100%;
+    bottom: 70px;
+    position: fixed;
 }
 .footer-div {
     text-align: center;
     background: #666666;
     padding-top: 35px;
     padding-bottom: 22px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 input[type=text] {
     width: 100%;
